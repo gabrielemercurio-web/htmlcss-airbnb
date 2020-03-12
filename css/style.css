@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.arancina {
+    width: 400px;
+    height: 400px;
+    /* background-color: orange; */
+    background-image: url(img/arancina.jpg);
+    background-size: cover;
+    position: relative;
+
+}
+
+.panelle {
+    width: 400px;
+    height: 400px;
+    background-color: gold;
+    /* text-align: center; */
+    background-image: url(img/panelle.jpg);
+    background-size: cover;
+    position:relative;
+
+}
+
+.cannolo {
+    width: 400px;
+    height: 400px;
+    /* background-color: brown; */
+    background-image: url(img/cannolo.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+div * {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottone {
+    padding: 15px 80px;
+    letter-spacing: 2px;
+    color: #000;
+    font-size: 18px;
+    font-family: "Lato";
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    border: 1px solid white;
+}
+.bottone:hover {
+    background-color: rgb(255, 255, 255);
+    font-weight: 900;
+}
